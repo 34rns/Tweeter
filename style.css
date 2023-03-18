@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Cherry+Swash:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Dongle:wght@300;400;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Fjalla+One&family=Fredoka+One&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,700;1,800&family=Lexend+Deca:wght@300;400;500;600;700;800;900&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,600;0,700;0,900;1,100;1,600;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,400;1,900&family=Righteous&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,700;1,900&family=Supermercado+One&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  content: "";
+  clear: both;
+  margin: 0;
+}
+input {
+  outline: none;
+  width: 100%;
+}
+.mainBody {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+}
+.searchContainer {
+  width: 100%;
+  border: 1px solid palegreen;
+  padding: 1em;
+}
+.tweetContainer {
+  padding: 2em;
+  border: 1px solid peru;
+}
+.tweetMsgContainer {
+  padding: 1.5em 0;
+}
+.tweetMsg {
+  padding: 0.5em 0;
+  border-bottom: 2px dotted palevioletred;
+  border-bottom: 5px;
+}
+.alertMsg {
+  text-align: center;
+  padding: 1em;
+}
